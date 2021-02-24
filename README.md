@@ -104,8 +104,8 @@ Also, check the [example](example) directory.
 | Option | Type | Required | Description |
 ---------|------|----------|-------------
 | env | `string` | required | Environment value for the release, for example `production` or `staging`. |
-| started | `number` | optional | UNIX timestamp for deployment start. |
-| finished | `number` | optional | UNIX timestamp for deployment finish. |
+| started | `string` | optional | ISO date string for deployment start. |
+| finished | `string` | optional | ISO date string for deployment finish. |
 | time | `number` | optional | Deployment duration in seconds. Can be used instead of `started` and `finished`. |
 | name | `string` | optional | Human-readable name for this deployment. |
 | url | `string` | optional | URL that points to the deployment. |
